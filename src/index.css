@@ -237,3 +237,144 @@ body {
 .file-label:hover {
   background-color: #45a049;
 }
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+
+    /* General Page Background */
+    .home {
+        padding: 15px;
+    }
+
+    /* Header Section */
+    .header {
+        padding: 40px 15px;
+        line-height: 1.5;
+    }
+
+    .header h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    /* Verse Box */
+    .header-verse {
+        padding: 20px;
+        border-radius: 15px;
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    .header-verse p {
+        font-size: 13px;
+    }
+
+    /* Buttons */
+    button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .start-reminder-button {
+        margin-top: 20%;
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    /* Home Card Containers */
+    .letters-home-container,
+    .letters-page-container {
+        flex-direction: column;
+        padding: 30px 20px;
+        width: 95%;
+        gap: 15px;
+    }
+
+    .letters-home-container h4 {
+        font-size: 17px;
+    }
+
+    .letters-home-container p {
+        font-size: 14px;
+    }
+
+    .letters-home-container svg,
+    .far-svg {
+        padding: 12px;
+    }
+
+    /* Reminder Card */
+    .reminder-card {
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+
+    .reminder-title {
+        font-size: 16px;
+    }
+
+    .reminder-text,
+    .reminder-reflection {
+        font-size: 15px;
+    }
+
+    .reminder-ref {
+        font-size: 13px;
+    }
+
+    .reminder-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* Letter Page */
+    .letter {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .letter .header h3 {
+        font-size: 20px;
+    }
+
+    .letter-detail {
+        padding: 20px 10px;
+    }
+
+    .letter-box {
+        padding: 30px 20px;
+    }
+
+    .letter-title {
+        font-size: 22px;
+    }
+
+    .letter-heading {
+        font-size: 15px;
+    }
+
+    .letter-paragraph {
+        font-size: 15px;
+    }
+
+    .letter-verse {
+        padding: 15px 18px;
+        font-size: 14px;
+        margin: 30px 0 40px 0;
+    }
+
+    .letter-signature {
+        font-size: 14px;
+    }
+
+    /* SVG icons adjustments */
+    .tired-svg, .heavy-svg, .far-svg {
+        padding: 10px;
+        margin-top: 5px;
+    }
+}
+
