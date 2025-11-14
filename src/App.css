@@ -1,0 +1,325 @@
+/* General Page Background */
+.home {
+    background: linear-gradient(to bottom, #e8ffe8, #e8ffe873);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.header h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #76af86;
+    margin-bottom: 20px;
+}
+
+ p {
+    font-size: 16px;
+    color: #4b585c;
+}
+
+/* Verse Box */
+.header-verse {
+    background: #f3fffa;
+    border: 1px solid #dff4ee;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 35px auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+.header-verse p {
+    font-size: 14px;
+    color: #2d8a51;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+/* Spiritual Reminder Box */
+
+button {
+    background: #2a9e66;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+button:hover {
+    background: #2a9e66ab;
+}
+
+.spiritual-box {
+    margin-top: 25px;
+    background: #f3fffa;
+    border: 1px solid #d8e6e0;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+}
+
+.start-reminder-button{
+  margin-top: 25%;
+  background: transparent;
+  border: 1px solid #2a9e6669;
+  color: #4b585c;
+  transition: all 0.5s ease;
+}
+
+.start-reminder-button:hover{
+  color: white;
+}
+
+/* Home Card Containers */
+.letters-home-container, .letters-page-container {
+    background: #f3fffa;
+    padding: 40px 30px;
+    border-radius: 18px;
+    width: 85%;
+    max-width: 700px;
+    margin: 70px auto;
+    border: 1px solid #e4ecec;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.letters-home-container:hover, .letters-page-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.letters-home-container svg, .far-svg {
+    flex-shrink: 0;
+    background-color: rgba(212, 110, 110, 0.212);
+    color: rgb(172, 14, 14);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.letters-home-container h4 {
+    margin: 0;
+    font-size: 19px;
+    color: #76af86;
+}
+
+.letters-home-container p {
+    margin: 5px 0 0;
+    color: #4b5557;
+    line-height: 1.6;
+}
+
+/* Outer main reminder card */
+.reminder-card {
+    border-radius: 26px;
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Title with icon */
+.reminder-title {
+    font-size: 18px;
+    color: #76af86;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+/* Dua text */
+.reminder-text {
+    font-size: 18px;
+    color: #3e4a4d;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* Reference line (blue-green link style) */
+.reminder-ref {
+    color: #76af86;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Divider line */
+.reminder-divider {
+    width: 70%;
+    height: 1px;
+    background-color: #c8ecd9;
+    margin: 20px auto 30px auto;
+}
+
+/* Reflection text */
+.reminder-reflection {
+    font-size: 17px;
+    color: #4b5557;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+/* Button under box */
+.reminder-btn {
+    background: #2a9e66;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.reminder-btn:hover {
+    background: #2a9e66ab;
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Letters Page */
+.letter{
+  background: linear-gradient(to bottom, rgba(236, 176, 176, 0.247), rgb(255, 252, 252));
+  height: 150vh;
+}
+
+.letter .header h3{
+  color: rgb(228, 141, 141);
+}
+
+.letter button, .letter-detail button{
+  margin: 0;
+  margin-left: 20%;
+  background-color: transparent;
+  color: #4b585c;
+  box-shadow: none;
+  padding-top: 50px;
+  padding-bottom: -50px;
+}
+
+.letters-page-container{
+  background-color: #fdfbfb;
+  margin-top: -10px;
+}
+
+.tired-svg, .heavy-svg, .far-svg{
+  flex-shrink: 0;
+  margin-top: 10px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.tired-svg{
+  color: #2a7d9e;
+  background-color: #afd9e9e8;
+}
+
+.heavy-svg{
+  color: #606665;
+  background-color: #6066654b;
+}
+
+/* Page background + layout */
+.letter-detail{
+  background: linear-gradient(to bottom, #f8f8df, #f4fff8);
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.letter-detail button{
+  margin-left: -43rem;
+}
+/* Main letter card */
+.letter-box {
+    background: #ffffff;
+    border-radius: 24px;
+    max-width: 750px;
+    width: 100%;
+    padding: 45px 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    position: relative;
+    line-height: 1.85;
+    margin: 20px auto;
+}
+
+/* Title */
+.letter-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d7d86;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Heading (italic intro text) */
+.letter-heading {
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* Regular paragraph lines */
+.letter-paragraph {
+    margin: 14px 0;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.85;
+}
+
+/* Quran / Islamic verse box */
+.letter-verse {
+    font-weight: 500;
+    font-style: italic;
+    padding: 18px 22px;
+    background: #e9fff5;
+    border-left: 4px solid #2a9e66;
+    border-radius: 10px;
+    margin: 40px 0 60px 0;
+    color: #265c46;
+    line-height: 1.9;
+}
+
+.letter-signature{
+  text-align: right;
+  font-style: italic;
+}
+
