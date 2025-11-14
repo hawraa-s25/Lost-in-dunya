@@ -311,6 +311,7 @@ body {
     .reminder-card {
         padding: 30px 20px;
         border-radius: 20px;
+        height: 500px;
     }
 
     .reminder-title {
